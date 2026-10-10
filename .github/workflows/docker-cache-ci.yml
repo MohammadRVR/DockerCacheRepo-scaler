@@ -28,5 +28,5 @@ jobs:
           context: .
           push: false
           tags: my-org/my-app:latest
-          cache-from: type=registry,ref=my-org/my-app:cache
-          cache-to: type=registry,ref=my-org/my-app:cache,mode=max
+          # cache-from: type=registry,ref=my-org/my-app:cache
+          # cache-to: type=registry,ref=my-org/my-app:cache,mode=max
